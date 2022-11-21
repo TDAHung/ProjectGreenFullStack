@@ -1,0 +1,86 @@
+header {
+    position: relative;
+    height: 72.2rem;
+}
+
+.header__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: -999;
+}
+
+.header__img img {
+    filter: contrast(1) saturate(1) brightness(1) grayscale(0) blur(0) invert(0) sepia(0) hue-rotate(0);
+}
+
+header h1 {
+    color: rgba(255, 255, 255, 1);
+    font-family: var(--baloo);
+    font-weight: 700;
+    font-size: 4.3rem;
+}
+
+header h6 {
+    color: rgba(255, 255, 255, 1);
+    font-family: var(--roboto);
+    font-size: 1.6rem;
+    padding: 0 10rem;
+}
+
+.header__register {
+    margin-top: 5rem;
+    display: flex;
+}
+
+.header__register .register__img {
+    height: 34.4rem;
+    width: 59.5rem;
+}
+
+.header__register .register__img img {
+    border-radius: 0.5rem;
+}
+
+.header__register .register__form {
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+.header__register .register__form h5 {
+    font-size: 1.8rem;
+    font-family: var(--roboto);
+    color: #e21f2f;
+}
+
+.register__list {
+    margin-top: 5rem;
+}
+
+.register__items svg {
+    height: 100%;
+    width: 2.2rem;
+    margin-right: 2rem;
+}
+
+.register__items {
+    margin: 1.5rem;
+    margin-left: 3.5rem;
+    font-size: 1.6rem;
+    color: rgba(255, 255, 255, 1);
+    font-family: var(--roboto);
+    display: flex;
+}
+
+.register__btn {
+    width: 17.3rem;
+    height: 5rem;
+    margin-left: 5.5rem;
+}
+
+.register__btn p {
+    font-family: var(--baloo);
+    font-size: 1.8rem;
+    margin: 0;
+}

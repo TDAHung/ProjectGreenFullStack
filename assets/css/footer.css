@@ -1,0 +1,61 @@
+footer {
+    height: 71rem;
+    background-color: rgba(23, 23, 23, 1);
+}
+
+.footer-wrapper {
+    width: 40%;
+    padding: 10rem 0;
+}
+
+.footer__brand {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__logo {
+    height: 2.7rem;
+    width: 14rem;
+}
+
+.address,
+.message {
+    color: white;
+    font-family: var(--sans);
+    font-size: 1.6rem;
+}
+
+.detail {
+    color: rgba(145, 145, 145, 1);
+    font-family: var(--sans);
+    font-size: 1.3rem;
+    margin-bottom: 4rem;
+}
+
+.footer-line {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.06);
+    height: 0.1rem;
+    margin: 4rem 0;
+    margin-top: 0.5rem;
+}
+
+input {
+    background-color: rgba(255, 255, 255, 0.06);
+    border: solid rgba(145, 145, 145, 0.05) 0.2rem;
+    height: 3.3rem;
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+button {
+    margin-top: 2rem;
+}
+
+p {
+    font-family: var(--baloo);
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 0.3rem 0;
+    margin-bottom: 0.2rem;
+}

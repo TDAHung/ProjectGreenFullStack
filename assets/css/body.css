@@ -1,0 +1,121 @@
+.link__wrapper {
+    height: 50rem;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link__header {
+    text-align: center;
+    font-size: 2.4rem;
+    font-family: var(--baloo);
+    margin-top: 2rem;
+}
+
+.TourDates {
+    padding: 5rem 0;
+    background-color: black;
+}
+
+.TourDates__title,
+.Music__title,
+.link__title {
+    font-family: var(--baloo);
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    vertical-align: center;
+    margin-bottom: 0;
+}
+
+.line {
+    width: 9rem;
+    height: 0.2rem;
+    background-color: rgba(226, 31, 47, 1);
+    margin: 2rem auto;
+    margin-top: 1rem;
+}
+
+.TourDates__item {
+    font-family: var(--baloo);
+    color: white;
+}
+
+.TourDates__dayInWeek,
+.TourDates__city,
+.FanClub__1__name,
+.FanClub__2__name {
+    font-size: 1.6rem;
+    font-family: var(--sans);
+    color: rgba(255, 255, 255, 0.83);
+    text-transform: uppercase;
+}
+
+.TourDates__dayInMonth,
+.TourDates__stage {
+    font-size: 3.6rem;
+    font-family: var(--baloo);
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+
+.FanClub__1__TicketStatus,
+.FanClub__2__TicketStatus {
+    font-size: 3rem;
+    font-family: var(--baloo);
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.77);
+}
+
+.TourDates__btn {
+    width: 16rem;
+    height: 5rem;
+    font-weight: 700;
+    background-color: rgba(48, 48, 48, 1);
+    color: rgba(255, 255, 255, 0.77);
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.TourDates__item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Nav-img {
+    height: 53rem;
+}
+
+.Music-content {
+    background-color: black;
+    padding: 8rem 0;
+}
+
+.Music__script {
+    margin-top: 1.5rem;
+    font-size: 2.4rem;
+    font-family: var(--baloo);
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    vertical-align: center;
+}
+
+.Music__description {
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: var(--sans);
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.link-ytb {
+    background-color: black;
+    padding: 8rem 0;
+}
+
+.link-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
