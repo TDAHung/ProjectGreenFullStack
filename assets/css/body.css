@@ -50,6 +50,19 @@
     color: white;
 }
 
+.TourDates__time {
+    width: 10%;
+}
+
+.TourDates__destination {
+    width: 30%;
+}
+
+.TourDates__FanClub__1,
+.TourDates__FanClub__2 {
+    width: 15%;
+}
+
 .TourDates__dayInWeek,
 .TourDates__city,
 .FanClub__1__name,
@@ -68,13 +81,12 @@
     color: rgba(255, 255, 255, 1);
 }
 
-.FanClub__1__TicketStatus,
-.FanClub__2__TicketStatus {
+.FanClub__1__NumsOfTickets,
+.FanClub__2__NumsOfTickets {
     font-size: 3rem;
     font-family: var(--baloo);
     font-weight: 700;
     color: rgba(255, 255, 255, 0.77);
-    width: 15rem;
 }
 
 .TourDates__btn {
@@ -89,6 +101,8 @@
 
 .btnAdd {
     text-align: center;
+    width: 1rem;
+    margin: 0 auto;
 }
 
 .TourDates__item {

@@ -15,9 +15,9 @@ btnAdd.addEventListener('click', event => {
     const city = document.querySelector('.TourDates__city');
     const stage = document.querySelector('.TourDates__stage');
     const FanClub__1__name = document.querySelector('.FanClub__1__name');
-    const FanClub__1__NumsOfTickets = document.querySelector('.FanClub_1_NumsOfTickets');
+    const FanClub__1__NumsOfTickets = document.querySelector('.FanClub__1__NumsOfTickets');
     const FanClub__2__name = document.querySelector('.FanClub__2__name');
-    const FanClub__2__NumsOfTickets = document.querySelector('.FanClub_2_NumsOfTickets');
+    const FanClub__2__NumsOfTickets = document.querySelector('.FanClub__2__NumsOfTickets');
 
     const tourDate = {
         id: 'TI-' + Math.floor(Math.random() * 100) + 1,
@@ -26,9 +26,9 @@ btnAdd.addEventListener('click', event => {
         city: city.value,
         stage: stage.value,
         FanClub__1__name: FanClub__1__name.value,
-        FanClub__1__NumsOfTickets: Number(FanClub__1__NumsOfTickets.value),
+        FanClub__1__NumOfTickets: Number(FanClub__1__NumsOfTickets.value),
         FanClub__2__name: FanClub__2__name.value,
-        FanClub__2__NumsOfTickets: Number(FanClub__2__NumsOfTickets.value)
+        FanClub__2__NumOfTickets: Number(FanClub__2__NumsOfTickets.value)
     };
 
     const dataArray = getSthLocalStorage('TourList');
