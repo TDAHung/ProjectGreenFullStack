@@ -27,7 +27,6 @@
 </head>
 
 <body>
-
     <template id="templateTourDate">
         <li class="TourDates__item mb-5">
             <div class="TourDates__time">
@@ -58,7 +57,9 @@
                     Sold Out
                 </h6>
             </div>
-            <button class="TourDates__btn">Book</button>
+            <button class="btn TourDates__btn bookBTN-fanClub-1">Book</button>
+            <button class="btn TourDates__btn bookBTN-fanClub-2">Book</button>
+            <button class="btn btn-danger TourDates__btn removeBTN">Delete</button>
         </li>
     </template>
 
@@ -164,16 +165,16 @@
             </div>
         </div>
         <div class="TourDates">
-            <div class="container">
-                <div class="TourDates__wrapper">
-                    <h1 class="TourDates__title">
-                        EUROPEAN TOUR DATES
-                    </h1>
-                    <div class="line"></div>
-                    <ul class="TourDates__list">
-                        <!-- Template Tour Date -->
-                    </ul>
-                </div>
+            <div class="TourDates__wrapper">
+                <h1 class="TourDates__title">
+                    EUROPEAN TOUR DATES
+                </h1>
+                <div class="line"></div>
+                <ul class="TourDates__list">
+                    <!-- Template Tour Date -->
+                </ul>
+                <a href="/assets/page/addTourDate.html" class="btnAdd"><button
+                        class="btn btn-success TourDates__btn">Add A Tour Date</button></a>
             </div>
         </div>
         <div class="Nav-img">

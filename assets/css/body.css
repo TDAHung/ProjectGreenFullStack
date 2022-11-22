@@ -37,6 +37,14 @@
     margin-top: 1rem;
 }
 
+.TourDates__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
 .TourDates__item {
     font-family: var(--baloo);
     color: white;
@@ -66,16 +74,21 @@
     font-family: var(--baloo);
     font-weight: 700;
     color: rgba(255, 255, 255, 0.77);
+    width: 15rem;
 }
 
 .TourDates__btn {
-    width: 16rem;
+    width: 15rem;
     height: 5rem;
     font-weight: 700;
     background-color: rgba(48, 48, 48, 1);
     color: rgba(255, 255, 255, 0.77);
     font-size: 1.4rem;
     margin: 0;
+}
+
+.btnAdd {
+    text-align: center;
 }
 
 .TourDates__item {
