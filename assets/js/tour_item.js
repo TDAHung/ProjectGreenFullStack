@@ -1,3 +1,15 @@
+const dataInit = [{
+    id: 'TI-' + Math.floor(Math.random() * 100) + 1,
+    dayInWeek: 'Mon',
+    dayInMonth: '23 Nov',
+    city: 'HCM',
+    stage: 'Phu Tho Stadium',
+    FanClub__1__name: 'Gangster',
+    FanClub__1__NumOfTickets: 12,
+    FanClub__2__name: 'BKel',
+    FanClub__2__NumOfTickets: 10
+}];
+
 const setSthLocalStorage = (item, data) => {
     localStorage.setItem(item, JSON.stringify(data));
 }

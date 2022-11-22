@@ -8,7 +8,6 @@ const getSthLocalStorage = (item) => {
     return JSON.parse(localStorage.getItem(item));
 }
 
-
 btnAdd.addEventListener('click', event => {
     event.preventDefault();
     const dayInMonth = document.querySelector('.TourDates__dayInMonth');
